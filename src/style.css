@@ -1,27 +1,28 @@
-.navbar-brand {
+button {
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  border: transparent;
   font-family: "Orbitron", sans-serif;
-  color: black;
-  border: 2px solid white;
-  padding: 10px;
+  font-size: 30px;
+  margin-top: 300px;
 }
 
-.navbar-brand a {
-  padding: 10px;
+button a {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
   color: black;
-  font-size: 18px;
 }
 
-.navbar-brand .navbar-nav .nav-item .nav-link {
-  float: right;
+button a:hover {
+  color: #04f73d;
+  transition: all 0.7s ease-in-out;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 h3 {
@@ -30,14 +31,54 @@ h3 {
   font-size: 15px;
 }
 
-h5 {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
+h3 a {
+  text-decoration: none;
 }
 
-.about-me {
-  display: block;
-  width: 100;
+table {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+.example-text4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
+
+.navbar {
+  justify-content: flex-start;
+}
+
+.navbar li {
+  list-style: square;
+  padding-top: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: black;
+  font-family: "Orbitron", sans-serif;
+}
+
+.navbar li a:hover {
+  color: #04f73d;
+  transition: all 0.7s ease-in-out;
+}
+
+.sublist {
+  font-size: 15px;
+}
+
+.sublist li a:hover {
+  color: #7b04f9;
+  transition: all 0.7s ease-in-out;
 }
 
 .social {
