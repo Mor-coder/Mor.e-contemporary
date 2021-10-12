@@ -1,37 +1,45 @@
-.logo {
+.navbar-brand {
   font-family: "Orbitron", sans-serif;
   color: black;
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 10px;
-  margin: 10px;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  margin-right: 15px;
-}
-
-nav a {
-  text-align: justify;
-  padding: 20px;
+.navbar-brand a {
+  padding: 10px;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
-  justify-content: space-evenly;
+  font-size: 18px;
 }
 
-h2,
-h3 {
+h2 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   text-align: center;
-  margin: 0;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
-.img-homepage {
-  display: block;
-  margin: 0 auto;
-  width: 100;
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 30px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.social i {
+  padding: 10px;
 }
