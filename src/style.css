@@ -84,26 +84,41 @@ table {
 .about-description {
   display: flex;
   flex-direction: column;
-  margin-top: -250px;
-  margin-bottom: 200px;
+  margin-top: -280px;
   text-align: justify;
 }
 
 p {
   display: flex;
   margin: 0 auto;
-  width: 400px;
+  width: 550px;
+}
+
+.ingredients-list {
+  margin: 0 auto;
+  text-align: center;
+  width: 550px;
+}
+
+.ingredients-list li {
+  text-align: justify;
 }
 
 .social {
-  display: flex;
-  justify-content: center;
+  display: block;
+  position: fixed;
+  bottom: 0;
   list-style: none;
   font-size: 30px;
   padding: 10px;
   margin: 15px;
+  color: black;
 }
 
 .social i {
   padding: 10px;
+}
+
+.social a {
+  color: black;
 }
