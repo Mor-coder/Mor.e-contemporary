@@ -17,27 +17,41 @@
 .navbar li a:hover {
   color: #04f73d;
   transition: all 0.7s ease-in-out;
+  cursor: pointer;
 }
 
-.sublist {
+.sublist a {
   font-size: 15px;
 }
 
 .sublist li a:hover {
   color: #7b04f9;
   transition: all 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar li a .active {
+  color: #04f73d;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+h1 {
+  font-size: 25px;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
-  text-align: center;
-  margin-top: 10px;
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
   font-size: 15px;
 }
 
@@ -89,22 +103,12 @@ table {
 }
 
 p {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   margin: 0 auto;
+  text-align: justify;
   width: 550px;
   margin-bottom: 30px;
-}
-
-.tuktu-description {
-  display: block;
-  justify-content: center;
-  text-align: justify;
-}
-
-.tuktu-description a {
-  display: block;
-  margin: 0 auto;
-  text-align: justify;
 }
 
 .ingredients-list {
@@ -118,9 +122,40 @@ p {
   list-style: georgian;
 }
 
+.palatinus {
+  display: block;
+  margin: 0 auto;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.landscape {
+  display: block;
+  margin: 0 auto;
+  margin-top: -370px;
+}
+
+.landscape p {
+  margin-top: 15px;
+  width: 800px;
+}
+
+.art-fair {
+  display: block;
+  margin: 0 auto;
+  margin-top: -260px;
+  width: 800px;
+}
+
+.art-fair p {
+  margin-top: 15px;
+  width: 800px;
+}
+
 iframe {
   display: block;
   margin: 0 auto;
+  position: relative;
   margin-top: -260px;
 }
 
@@ -128,6 +163,19 @@ p.quote {
   display: flex;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.tuktu-website {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.tuktu-website a {
+  text-decoration: none;
 }
 
 .social {
