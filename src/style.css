@@ -122,17 +122,13 @@ p {
   list-style: georgian;
 }
 
-.palatinus {
-  display: block;
-  margin: 0 auto;
-  padding: 3px;
-  margin-bottom: 3px;
-}
-
 .landscape {
   display: block;
   margin: 0 auto;
-  margin-top: -370px;
+  position: relative;
+  margin-top: -380px;
+  margin-right: 250px;
+  width: 800px;
 }
 
 .landscape p {
@@ -143,7 +139,9 @@ p {
 .art-fair {
   display: block;
   margin: 0 auto;
+  position: relative;
   margin-top: -260px;
+  margin-right: 200px;
   width: 800px;
 }
 
