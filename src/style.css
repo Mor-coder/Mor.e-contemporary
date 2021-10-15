@@ -187,7 +187,10 @@ p.quote {
 
 .contact {
   margin-top: -150px;
-  font-size: 20px;
+}
+
+.contact a {
+  text-decoration: none;
 }
 
 .social {
