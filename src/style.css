@@ -140,7 +140,7 @@ p {
   display: block;
   margin: 0 auto;
   position: relative;
-  margin-top: -260px;
+  margin-top: -280px;
   margin-right: 200px;
   width: 800px;
 }
@@ -150,11 +150,16 @@ p {
   width: 800px;
 }
 
-iframe {
+.experimenting {
   display: block;
   margin: 0 auto;
   position: relative;
-  margin-top: -260px;
+  margin-top: -350px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 p.quote {
@@ -165,15 +170,24 @@ p.quote {
   padding: 3px;
 }
 
-.tuktu-website {
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  margin-bottom: 50px;
+.artists-social h3 {
+  font-size: 20px;
 }
 
-.tuktu-website a {
-  text-decoration: none;
+.artists-social a {
+  font-size: 25px;
+  padding: 5px;
+  color: purple;
+  transition: all 0.7s ease-in-out;
+}
+
+.artists-social a:hover {
+  color: black;
+}
+
+.contact {
+  margin-top: -150px;
+  font-size: 20px;
 }
 
 .social {
@@ -193,4 +207,9 @@ p.quote {
 
 .social a {
   color: black;
+  transition: all 0.7s ease-in-out;
+}
+
+.social a:hover {
+  color: #04f73d;
 }
