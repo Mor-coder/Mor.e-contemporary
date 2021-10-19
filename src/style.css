@@ -20,8 +20,18 @@
   cursor: pointer;
 }
 
+.sublist li {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
 .sublist a {
-  font-size: 15px;
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sublist li a:hover {
@@ -107,7 +117,6 @@ p {
   display: flex;
   margin: 0 auto;
   text-align: justify;
-  width: 550px;
   margin-bottom: 30px;
 }
 
@@ -122,41 +131,20 @@ p {
   list-style: georgian;
 }
 
-.landscape {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  margin-top: -380px;
-  margin-right: 250px;
+section {
+  padding: 3px;
+  margin-top: 20px;
+}
+
+section p {
   width: 800px;
+  text-align: justify;
+  padding-top: 5px;
 }
 
-.landscape p {
-  margin-top: 15px;
-  width: 800px;
-}
-
-.art-fair {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  margin-top: -280px;
-  margin-right: 200px;
-  width: 800px;
-}
-
-.art-fair p {
-  margin-top: 15px;
-  width: 800px;
-}
-
-.experimenting {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  margin-top: -350px;
-}
-
+.macmaris,
+.mo2ma,
+.palatinus,
 iframe {
   display: block;
   margin: 0 auto;
@@ -215,4 +203,10 @@ p.quote {
 
 .social a:hover {
   color: #04f73d;
+}
+
+@media (max-width: 768px) {
+  .palatinus {
+    display: none;
+  }
 }
