@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3 {
@@ -106,13 +106,6 @@ table {
   -ms-writing-mode: vertical-rl;
 }
 
-.about-description {
-  display: flex;
-  flex-direction: column;
-  margin-top: -290px;
-  text-align: justify;
-}
-
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -125,11 +118,10 @@ p {
 .ingredients-list {
   margin: 0 auto;
   text-align: center;
-  width: 550px;
+  margin-top: -230px;
 }
 
 .ingredients-list li {
-  text-align: justify;
   list-style: georgian;
 }
 
@@ -139,6 +131,20 @@ p {
 iframe {
   display: block;
   margin: 0 auto;
+}
+
+.zoom-without-container {
+  transition: transform ease-in-out 0.5s;
+  margin: 0 auto;
+}
+
+.zoom-without-container img {
+  width: 100%;
+  height: auto;
+}
+
+.zoom-without-container:hover {
+  transform: scale(1.8);
 }
 
 .artworks-details span {
@@ -202,4 +208,12 @@ p.quote {
 
 .social a:hover {
   color: #04f73d;
+}
+
+#zoom-img {
+  width: 600px;
+  height: 338px;
+  background: url("../img/david-paintings/Landscape-from-my-window-on-winter-2012-100x130cm.png");
+  background-position: center;
+  background-size: cover;
 }
