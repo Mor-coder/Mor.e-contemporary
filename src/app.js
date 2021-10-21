@@ -12,7 +12,7 @@ var addZoom = function (target) {
   var container = document.getElementById(target),
     imgsrc =
       container.currentStyle || window.getComputedStyle(container, false),
-    imgsrc = imgsrc.backgroundImage.slice(4, -1).replace(/" /g, ""),
+    imgsrc = imgsrc.backgroundImage.slice(4, -1).replace(/"/g, ""),
     img = new Image();
 
   // LOAD IMAGE + ATTACH ZOOM

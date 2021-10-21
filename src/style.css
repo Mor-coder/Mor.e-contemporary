@@ -209,11 +209,3 @@ p.quote {
 .social a:hover {
   color: #04f73d;
 }
-
-#zoom-img {
-  width: 600px;
-  height: 338px;
-  background: url("../img/david-paintings/Landscape-from-my-window-on-winter-2012-100x130cm.png");
-  background-position: center;
-  background-size: cover;
-}
