@@ -5,6 +5,7 @@
 .navbar li {
   list-style: square;
   padding-top: 10px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .navbar li a {
