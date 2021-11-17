@@ -208,7 +208,7 @@ p.quote {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
   display: none;
   align-items: center;
   justify-content: center;
@@ -219,10 +219,10 @@ p.quote {
 }
 
 .portfolio-lightbox-content {
-  width: 70%;
-  background: black;
+  background: rgba(0, 0, 0, 0.9);
   padding: 1em;
   position: relative;
+  object-fit: fill;
 }
 
 .close {
@@ -243,8 +243,4 @@ p.quote {
   content: "X";
   color: white;
   font-weight: 700;
-}
-
-img {
-  max-width: 100%;
 }
