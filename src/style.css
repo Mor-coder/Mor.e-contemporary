@@ -201,3 +201,50 @@ p.quote {
 .social a:hover {
   color: #04f73d;
 }
+
+.portfolio-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-lightbox:target {
+  display: flex;
+}
+
+.portfolio-lightbox-content {
+  width: 70%;
+  background: black;
+  padding: 1em;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background: black;
+  top: -1em;
+  right: -1em;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close::after {
+  content: "X";
+  color: white;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
