@@ -149,6 +149,14 @@ iframe {
 }
 
 .david-paintings {
+  display: blocK;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px rgba(112, 99, 99, 0.3);
+}
+
+.david-paintings-1 {
+  display: blocK;
+  margin: 0 auto;
   box-shadow: 2px 2px 2px rgba(112, 99, 99, 0.3);
 }
 
