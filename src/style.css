@@ -40,13 +40,60 @@ h3 a {
 }
 
 .hp_img_bg {
-  background-image: url("/img/hp_img.jpg");
+  background-image: url("/img/hp_img\ 1.svg");
   background-size: cover;
   background-repeat: repeat;
 }
 
 .box {
   height: 30vh;
+}
+
+.box_yellow_house {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.yellow_house {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 82%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  background-color: #4b5380;
+}
+
+.box_yellow_house:hover .overlay {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.overlay_text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(194, 192, 192);
+  font-size: 16px;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_text li {
+  list-style: none;
 }
 
 .menu_link {
