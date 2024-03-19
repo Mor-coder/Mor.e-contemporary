@@ -22,45 +22,19 @@
   cursor: pointer;
 }
 
-.sublist li {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-
-.sublist a {
-  font-size: 25px;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.sublist li a:hover {
-  color: #7b04f9;
-  transition: all 0.7s ease-in-out;
-  cursor: pointer;
-}
-
 .navbar li a .active {
   color: #04f73d;
-}
-
-section {
-  height: 180vh;
 }
 
 h1,
 h2,
 h3 {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-top: 10px;
   color: black;
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 100px;
 }
 
 h2 {
@@ -73,6 +47,25 @@ h3 {
 
 h3 a {
   text-decoration: none;
+}
+
+.hp_img_bg {
+  background-image: url("/img/hp_img.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.box {
+  height: 30vh;
+}
+
+.menu_link {
+  text-decoration: none;
+}
+
+.menu_link :hover {
+  color: #04f73d;
+  transition: all 0.7s ease-in-out;
 }
 
 button {
@@ -127,18 +120,14 @@ table {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   padding-top: 5px;
 }
 
-.ingredients-list {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: -230px;
-}
-
-.ingredients-list li {
-  list-style: georgian;
+.about_description {
+  position: relative;
+  max-width: 100%;
+  margin-top: -50%;
 }
 
 .macmaris,
