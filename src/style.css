@@ -51,8 +51,7 @@ h3 a {
 
 .box_yellow_house {
   position: relative;
-  width: auto;
-  height: auto;
+  width: 100%;
 }
 
 .yellow_house {
@@ -71,8 +70,8 @@ h3 a {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease-in-out;
-  background-color: #4b5380;
+  transition: 0.5s ease;
+  background-color: #1d1d2f;
 }
 
 .box_yellow_house:hover .overlay {
@@ -82,17 +81,196 @@ h3 a {
 
 .overlay_text {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(194, 192, 192);
+  color: aliceblue;
   font-size: 16px;
   position: absolute;
-  left: 20%;
   top: 50%;
-  bottom: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
 .overlay_text li {
+  list-style: none;
+}
+
+.box_mo2ma {
+  position: relative;
+  width: 100%;
+}
+
+.mo2ma {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 82%;
+}
+
+.overlay_mo2ma {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1d1d2f;
+}
+
+.box_mo2ma:hover .overlay_mo2ma {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.overlay_text_mo2ma {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_text_mo2ma li {
+  list-style: none;
+}
+
+.box_macmaris {
+  position: relative;
+  width: 100%;
+}
+
+.macmaris {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 82%;
+}
+
+.overlay_macmaris {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1d1d2f;
+}
+
+.box_macmaris:hover .overlay_macmaris {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.overlay_text_macmaris {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_text_macmaris li {
+  list-style: none;
+}
+
+.box_spentriu {
+  position: relative;
+  width: 100%;
+}
+
+.spentriu {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 82%;
+}
+
+.overlay_spentriu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1d1d2f;
+}
+
+.box_spentriu:hover .overlay_spentriu {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.overlay_text_spentriu {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_text_spentriu li {
+  list-style: none;
+}
+
+.box_jennifer_morrison {
+  position: relative;
+  width: 100%;
+}
+
+.jennifer_morrison {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 82%;
+}
+
+.overlay_jennifer_morrison {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1d1d2f;
+}
+
+.box_jennifer_morrison:hover .overlay_jennifer_morrison {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.overlay_text_jennifer_morrison {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_text_jennifer_morrison li {
   list-style: none;
 }
 
@@ -148,27 +326,6 @@ p {
 .about_description {
   position: relative;
   max-width: 100%;
-}
-
-.project_list ul {
-  margin-top: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-.project_list a {
-  text-decoration: none;
-}
-
-.macmaris,
-.mo2ma,
-.palatinus,
-iframe {
-  display: block;
-  box-shadow: 2px 2px 2px rgba(112, 99, 99, 0.3);
-  width: 100%;
 }
 
 .artworks-details-1 ul {
@@ -249,45 +406,6 @@ p.quote {
   color: #04f73d;
 }
 
-.portfolio-lightbox {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 1);
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-
-.portfolio-lightbox:target {
-  display: flex;
-}
-
-.portfolio-lightbox-content {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 1em;
-  position: relative;
-  object-fit: fill;
-}
-
-.close {
-  position: absolute;
-  width: 2em;
-  height: 2em;
-  background: black;
-  top: -1em;
-  right: -1em;
-  border-radius: 50%;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.close::after {
-  content: "X";
-  color: white;
-  font-weight: 700;
+footer {
+  height: 30vh;
 }
